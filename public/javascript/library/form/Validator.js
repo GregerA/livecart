@@ -142,7 +142,7 @@ function MaxLengthCheck(element, params)
 
 function IsValidEmailCheck(el, params)
 {
-	var pattern = /^[a-zA-Z0-9][a-zA-Z0-9\._\-]+@[a-zA-Z0-9_\-][a-zA-Z0-9\._\-]+\.[a-zA-Z]{2,}$/;
+	var pattern = /^[a-zA-Z0-9][a-zA-Z0-9\._\-+]+@[a-zA-Z0-9_\-][a-zA-Z0-9\._\-]+\.[a-zA-Z]{2,}$/;
 	return el.value.match(pattern);
 }
 
